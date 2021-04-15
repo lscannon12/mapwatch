@@ -1,0 +1,31 @@
+*
+{
+     font-family: Helvetica;
+     font-style: normal;
+     font-weight: bold;
+}
+
+body
+{
+     background-color: #B63838;
+}
+
+nav
+{
+     display: block;
+     clear: left;
+     width: 95%;
+     margin: 0% 2% 0% 2%;
+
+     font-size: 1em;
+
+     background-color: #C2C622;
+     border: 1px solid #000000;
+     box-sizing: border-box;
+     box-shadow: 10px 10px 0px #000000;
+}
+
+nav a
+{
+     
+}

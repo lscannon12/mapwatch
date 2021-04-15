@@ -6,19 +6,41 @@ api.data.gov key: 4S5cPyTnWPeRHKSeJ7OcqsGFw8EG6QOTQhny7fSa
 <head>
      <meta charset="utf-8">
      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> -->
-     <title>Mapwatch</title>
+     <title>Map Watch.</title>
      <meta name="description" content="Mapwatch beta">
      <meta name="author" content="Lucas Cannon">
 
-     <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
+     <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
      <script src="index.js"></script>
-     <h1>Mapwatch data</h1>
-     <ul id="listicle">
-          
-     </ul>
+     <nav>
+          <a href="./index.html">Map Watch.</a>
+     </nav>
+     <div id="selectState">
+          <h3>State.</h3>
+     </div>
+     <div class="bubbleSelect">
+          <h2>Demograph</h2>
+          <h3>Race</h3>
+          <ul>
+               <li>White</li>
+               <li>Asian</li>
+               <li>African American</li>
+               <li>Native American</li>
+          </ul>
+          <h3>Gender</h3>
+          <ul>
+               <li>Female</li>
+               <li>Male</li>
+               <br>
+               <li>Extrapolate Data*</li>
+          </ul>
+     </div>
+     <div id="mapSVG">
+          <img src="./us.svg" alt="SVG of US states">
+     </div>
 
 </body>
 </html>
